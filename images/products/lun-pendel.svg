@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" fill="none">
+  <rect width="480" height="560" fill="#F0EBE3"/>
+
+  <!-- Cord from top center -->
+  <line x1="240" y1="0" x2="240" y2="148" stroke="#6B4C2A" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Canopy (ceiling mount) -->
+  <ellipse cx="240" cy="148" rx="28" ry="9" fill="#A07828" opacity="0.85"/>
+  <ellipse cx="240" cy="148" rx="28" ry="9" stroke="#6B4C2A" stroke-width="1" fill="none"/>
+
+  <!-- Pendant body — asymmetric teardrop, slightly off-center -->
+  <path d="M 215 155 C 210 175, 192 230, 196 290 C 198 320, 216 348, 240 352 C 264 348, 282 320, 284 290 C 288 230, 270 175, 265 155 Z"
+        fill="#6B4C2A" opacity="0.12"/>
+  <path d="M 215 155 C 210 175, 192 230, 196 290 C 198 320, 216 348, 240 352 C 264 348, 282 320, 284 290 C 288 230, 270 175, 265 155 Z"
+        stroke="#6B4C2A" stroke-width="1.5" fill="none"/>
+
+  <!-- Brass ring at junction of cord and shade -->
+  <ellipse cx="240" cy="158" rx="26" ry="7" stroke="#A07828" stroke-width="2" fill="none"/>
+
+  <!-- Warm light wash inside shade — subtle glow -->
+  <ellipse cx="240" cy="270" rx="38" ry="80" fill="#A07828" opacity="0.07"/>
+
+  <!-- Bottom opening of shade (light exit) -->
+  <ellipse cx="240" cy="350" rx="44" ry="10" stroke="#A07828" stroke-width="1.5" fill="none" opacity="0.7"/>
+
+  <!-- Visible screw detail on canopy -->
+  <circle cx="240" cy="148" r="3" fill="#6B4C2A" opacity="0.6"/>
+
+  <!-- Light cone suggestion below shade -->
+  <path d="M 196 352 L 148 440 M 284 352 L 332 440" stroke="#A07828" stroke-width="0.75" opacity="0.3" stroke-linecap="round"/>
+
+  <!-- Material label -->
+  <text x="240" y="500" font-family="Georgia, serif" font-size="11" fill="#6B4C2A" opacity="0.55" text-anchor="middle" letter-spacing="2" font-style="italic">valnøtt · messing</text>
+  <text x="240" y="520" font-family="Georgia, serif" font-size="9" fill="#6B4C2A" opacity="0.35" text-anchor="middle" letter-spacing="3">LUN PENDEL</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" fill="none">
+  <rect width="480" height="560" fill="#F0EBE3"/>
+
+  <!-- Wall surface (left edge) -->
+  <line x1="100" y1="0" x2="100" y2="560" stroke="#6B4C2A" stroke-width="1" opacity="0.15"/>
+
+  <!-- Wall plate (brass mounting) -->
+  <rect x="88" y="210" width="24" height="80" rx="4" fill="#A07828" opacity="0.75"/>
+  <rect x="88" y="210" width="24" height="80" rx="4" stroke="#6B4C2A" stroke-width="1" fill="none"/>
+
+  <!-- Mounting screws -->
+  <circle cx="100" cy="222" r="2.5" fill="#6B4C2A" opacity="0.5"/>
+  <circle cx="100" cy="278" r="2.5" fill="#6B4C2A" opacity="0.5"/>
+
+  <!-- Arm extending from wall -->
+  <path d="M 112 250 C 140 250, 200 248, 230 248" stroke="#6B4C2A" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Arm highlight -->
+  <path d="M 112 248 C 140 248, 200 246, 230 246" stroke="#A07828" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Shade — asymmetric arc/dome, opening downward, slightly tipped -->
+  <path d="M 210 248 C 208 240, 212 195, 240 188 C 268 195, 278 240, 272 248 Z"
+        fill="#6B4C2A" opacity="0.12"/>
+  <path d="M 210 248 C 208 240, 212 195, 240 188 C 268 195, 278 240, 272 248 Z"
+        stroke="#6B4C2A" stroke-width="1.5" fill="none"/>
+
+  <!-- Brass ring at arm/shade junction -->
+  <ellipse cx="241" cy="249" rx="32" ry="8" stroke="#A07828" stroke-width="2" fill="none"/>
+
+  <!-- Bottom opening -->
+  <ellipse cx="241" cy="249" rx="32" ry="8" stroke="#A07828" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- Warm glow below -->
+  <ellipse cx="260" cy="310" rx="55" ry="40" fill="#A07828" opacity="0.06"/>
+
+  <!-- Light cone -->
+  <path d="M 212 250 L 168 360 M 272 250 L 336 360" stroke="#A07828" stroke-width="0.75" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- Wall shadow -->
+  <ellipse cx="104" cy="248" rx="8" ry="40" fill="#6B4C2A" opacity="0.05"/>
+
+  <!-- Material label -->
+  <text x="240" y="500" font-family="Georgia, serif" font-size="11" fill="#6B4C2A" opacity="0.55" text-anchor="middle" letter-spacing="2" font-style="italic">valnøtt · messing</text>
+  <text x="240" y="520" font-family="Georgia, serif" font-size="9" fill="#6B4C2A" opacity="0.35" text-anchor="middle" letter-spacing="3">LUN VEGG</text>
+</svg>

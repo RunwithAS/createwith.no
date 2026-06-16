@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" fill="none">
+  <rect width="480" height="640" fill="#EDE8DF"/>
+
+  <!-- Walnut plank suggestion — horizontal grain lines -->
+  <rect x="60" y="120" width="360" height="180" rx="3" fill="#6B4C2A" opacity="0.08"/>
+  <rect x="60" y="120" width="360" height="180" rx="3" stroke="#6B4C2A" stroke-width="1" fill="none" opacity="0.2"/>
+  <!-- Grain lines -->
+  <path d="M 80 145 Q 180 140 280 148 Q 360 155 420 150" stroke="#6B4C2A" stroke-width="0.75" opacity="0.15" fill="none"/>
+  <path d="M 70 162 Q 170 157 300 165 Q 380 170 430 163" stroke="#6B4C2A" stroke-width="0.75" opacity="0.12" fill="none"/>
+  <path d="M 75 180 Q 200 175 310 182 Q 390 187 425 180" stroke="#6B4C2A" stroke-width="0.75" opacity="0.12" fill="none"/>
+  <path d="M 65 198 Q 190 193 305 200 Q 385 205 430 198" stroke="#6B4C2A" stroke-width="0.75" opacity="0.10" fill="none"/>
+  <path d="M 70 216 Q 180 211 295 218 Q 375 223 425 216" stroke="#6B4C2A" stroke-width="0.75" opacity="0.10" fill="none"/>
+  <path d="M 75 234 Q 185 229 300 236 Q 385 241 425 234" stroke="#6B4C2A" stroke-width="0.75" opacity="0.08" fill="none"/>
+  <path d="M 68 252 Q 175 247 292 254 Q 378 259 428 252" stroke="#6B4C2A" stroke-width="0.75" opacity="0.08" fill="none"/>
+  <path d="M 72 270 Q 178 265 290 272 Q 375 277 422 270" stroke="#6B4C2A" stroke-width="0.75" opacity="0.07" fill="none"/>
+  <path d="M 78 288 Q 180 283 288 290 Q 372 295 418 288" stroke="#6B4C2A" stroke-width="0.75" opacity="0.06" fill="none"/>
+
+  <!-- Brass rod/tube — resting on the plank -->
+  <rect x="90" y="310" width="300" height="18" rx="9" fill="#A07828" opacity="0.65"/>
+  <rect x="90" y="310" width="300" height="18" rx="9" stroke="#6B4C2A" stroke-width="1" fill="none" opacity="0.4"/>
+  <!-- Highlight on rod -->
+  <rect x="100" y="312" width="260" height="5" rx="2.5" fill="white" opacity="0.18"/>
+  <!-- End caps -->
+  <ellipse cx="90" cy="319" rx="6" ry="9" fill="#A07828" opacity="0.8"/>
+  <ellipse cx="390" cy="319" rx="6" ry="9" fill="#A07828" opacity="0.8"/>
+
+  <!-- Small brass disc -->
+  <circle cx="240" cy="380" r="28" fill="#A07828" opacity="0.55"/>
+  <circle cx="240" cy="380" r="28" stroke="#6B4C2A" stroke-width="1" fill="none" opacity="0.4"/>
+  <circle cx="240" cy="380" r="18" stroke="#6B4C2A" stroke-width="0.75" fill="none" opacity="0.25"/>
+  <circle cx="240" cy="380" r="4" fill="#6B4C2A" opacity="0.4"/>
+
+  <!-- Material labels -->
+  <text x="240" y="455" font-family="Georgia, serif" font-size="11" fill="#6B4C2A" opacity="0.5" text-anchor="middle" letter-spacing="2" font-style="italic">valnøtt</text>
+  <text x="240" y="472" font-family="Georgia, serif" font-size="11" fill="#A07828" opacity="0.6" text-anchor="middle" letter-spacing="2" font-style="italic">messing</text>
+
+  <!-- Subtle corner accent -->
+  <path d="M 420 60 L 420 100 L 460 100" stroke="#A07828" stroke-width="1" opacity="0.2" fill="none"/>
+  <path d="M 60 60 L 60 100 L 20 100" stroke="#A07828" stroke-width="1" opacity="0.2" fill="none"/>
+</svg>

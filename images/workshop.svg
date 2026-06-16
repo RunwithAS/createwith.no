@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" fill="none">
+  <rect width="480" height="640" fill="#EDE8DF"/>
+
+  <!-- Workbench surface -->
+  <rect x="40" y="340" width="400" height="22" rx="2" fill="#6B4C2A" opacity="0.18"/>
+  <rect x="40" y="340" width="400" height="22" rx="2" stroke="#6B4C2A" stroke-width="1" fill="none" opacity="0.2"/>
+  <!-- Grain on bench -->
+  <line x1="55" y1="348" x2="420" y2="348" stroke="#6B4C2A" stroke-width="0.5" opacity="0.1"/>
+  <line x1="55" y1="354" x2="420" y2="354" stroke="#6B4C2A" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Bench legs -->
+  <rect x="70" y="362" width="12" height="100" rx="2" fill="#6B4C2A" opacity="0.12"/>
+  <rect x="398" y="362" width="12" height="100" rx="2" fill="#6B4C2A" opacity="0.12"/>
+
+  <!-- Lamp shade on bench — pendant in progress -->
+  <path d="M 200 200 C 196 220, 178 275, 182 320 C 184 336, 198 346, 218 348 C 238 346, 252 336, 254 320 C 258 275, 242 220, 238 200 Z"
+        fill="#6B4C2A" opacity="0.1"/>
+  <path d="M 200 200 C 196 220, 178 275, 182 320 C 184 336, 198 346, 218 348 C 238 346, 252 336, 254 320 C 258 275, 242 220, 238 200 Z"
+        stroke="#6B4C2A" stroke-width="1.5" fill="none"/>
+
+  <!-- Brass ring at top of shade -->
+  <ellipse cx="219" cy="203" rx="20" ry="6" stroke="#A07828" stroke-width="2" fill="none"/>
+
+  <!-- Cord hanging above -->
+  <line x1="219" y1="80" x2="219" y2="200" stroke="#6B4C2A" stroke-width="1.5" stroke-linecap="round" opacity="0.5" stroke-dasharray="4 3"/>
+
+  <!-- Small brass disc / component on bench -->
+  <circle cx="310" cy="335" r="18" fill="#A07828" opacity="0.45"/>
+  <circle cx="310" cy="335" r="18" stroke="#6B4C2A" stroke-width="1" fill="none" opacity="0.3"/>
+  <circle cx="310" cy="335" r="8" stroke="#6B4C2A" stroke-width="0.75" fill="none" opacity="0.2"/>
+
+  <!-- Small walnut block on bench -->
+  <rect x="130" y="322" width="38" height="18" rx="2" fill="#6B4C2A" opacity="0.18"/>
+  <rect x="130" y="322" width="38" height="18" rx="2" stroke="#6B4C2A" stroke-width="1" fill="none" opacity="0.25"/>
+  <!-- Grain -->
+  <line x1="135" y1="328" x2="163" y2="328" stroke="#6B4C2A" stroke-width="0.5" opacity="0.2"/>
+  <line x1="135" y1="333" x2="163" y2="333" stroke="#6B4C2A" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Pencil/tool suggestion -->
+  <line x1="345" y1="315" x2="380" y2="338" stroke="#6B4C2A" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
+  <polygon points="380,338 374,344 370,335" fill="#6B4C2A" opacity="0.15"/>
+
+  <!-- Workshop label -->
+  <text x="240" y="495" font-family="Georgia, serif" font-size="11" fill="#6B4C2A" opacity="0.45" text-anchor="middle" letter-spacing="2" font-style="italic">under utvikling</text>
+  <text x="240" y="513" font-family="Georgia, serif" font-size="9" fill="#6B4C2A" opacity="0.3" text-anchor="middle" letter-spacing="3">CREATEWITH</text>
+
+  <!-- Corner accents -->
+  <path d="M 420 60 L 420 100 L 460 100" stroke="#A07828" stroke-width="1" opacity="0.18" fill="none"/>
+  <path d="M 60 60 L 60 100 L 20 100" stroke="#A07828" stroke-width="1" opacity="0.18" fill="none"/>
+</svg>
